@@ -3,31 +3,31 @@
 ## 📖 Project Overview
 
 ### **Latar Belakang**
-- Industri penerbitan buku terus berkembang seiring meningkatnya akses pembaca terhadap berbagai sumber digital. Untuk membantu pemahaman yang lebih baik tentang tren literasi dan produksi buku, analisis data diperlukan untuk menjawab pertanyaan-pertanyaan seperti:
+Industri penerbitan buku terus berkembang seiring meningkatnya akses pembaca terhadap berbagai sumber digital. Untuk membantu pemahaman yang lebih baik tentang tren literasi dan produksi buku, analisis data diperlukan untuk menjawab pertanyaan-pertanyaan seperti:
  1. Buku berbahasa apa yang paling umum tersedia?
  2. Penerbit mana yang paling aktif menerbitkan buku?
  3. Genre apa yang paling banyak diproduksi?
 Dengan menjawab pertanyaan-pertanyaan tersebut, stakeholder seperti penulis, penerbit, dan pengembang aplikasi buku dapat membuat keputusan berbasis data.
 
 ### **Tujuan Proyek**
-- Tujuan dari proyek ini adalah untuk melakukan eksplorasi awal (Exploratory Data Analysis / EDA) terhadap dataset buku guna memahami karakteristik dasar dari kumpulan data tersebut, khususnya dari segi bahasa buku, penerbit terbanyak, dan genre yang paling umum. Hasil dari EDA ini dapat digunakan sebagai dasar untuk pengembangan sistem rekomendasi buku, pengelompokan pengguna berdasarkan preferensi, atau strategi distribusi konten oleh penerbit.
+Tujuan dari proyek ini adalah untuk melakukan eksplorasi awal (Exploratory Data Analysis / EDA) terhadap dataset buku guna memahami karakteristik dasar dari kumpulan data tersebut, khususnya dari segi bahasa buku, penerbit terbanyak, dan genre yang paling umum. Hasil dari EDA ini dapat digunakan sebagai dasar untuk pengembangan sistem rekomendasi buku, pengelompokan pengguna berdasarkan preferensi, atau strategi distribusi konten oleh penerbit.
 
 ### **Permasalahan**
-- Beberapa permasalahan spesifik yang ingin dijawab dalam proyek ini adalah
+Beberapa permasalahan spesifik yang ingin dijawab dalam proyek ini adalah
  1. Bahasa apa yang paling umum digunakan dalam buku-buku di dataset ini?
  2. Penerbit mana yang paling banyak menerbitkan buku?
  3. Genre apa yang paling sering muncul?
 Ketiga hal ini merupakan aspek fundamental dalam memahami karakteristik distribusi konten literasi dalam dataset.
 
 ### **Pendekatan**
-- Untuk menjawab permasalahan tersebut, pendekatan eksploratif akan digunakan dengan :
+Untuk menjawab permasalahan tersebut, pendekatan eksploratif akan digunakan dengan :
  1. Melihat distribusi frekuensi pada kolom language, publisher, dan genre.
  2. Menyaring dan mengurutkan nilai berdasarkan jumlah kemunculan.
  3. Menyajikan hasil dalam bentuk tabel dan ringkasan statistik tanpa visualisasi.
 Pendekatan ini sederhana namun efektif untuk memperoleh wawasan awal dari data secara objektif.
 
 ## 🔗 Raw Dataset
-- Dataset ini berasal dari **Google Books API** dan dilengkapi dengan beberapa entri yang ditambahkan secara manual. Dataset ini berisi informasi detail tentang kumpulan buku dari berbagai **genre**, **bahasa**, dan **periode terbit**.  
+Dataset ini berasal dari **Google Books API** dan dilengkapi dengan beberapa entri yang ditambahkan secara manual. Dataset ini berisi informasi detail tentang kumpulan buku dari berbagai **genre**, **bahasa**, dan **periode terbit**.  
 Proyek ini dirancang untuk **peneliti, analis data, dan penggemar buku** yang ingin mengeksplorasi **metadata buku**, **tren publikasi**, serta **keterlibatan pembaca** berdasarkan data yang tersedia.
 - **Link Dataset**: [Books Dataset on Kaggle](https://www.kaggle.com/datasets/madankhatri123h/books-dataset)
 - **Format**: CSV
